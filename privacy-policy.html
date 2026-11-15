@@ -1,20 +1,86 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Garagio — Privacy Policy</title><style>*{box-sizing:border-box}body{margin:0;background:#f7faf8;color:#20332c;font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:760px;margin:54px auto;padding:40px 44px;background:#fff;border:1px solid #e5ede8;border-radius:16px}h1{font-size:2rem;line-height:1.2;margin:0 0 8px;letter-spacing:-.04em}h2{font-size:1.1rem;margin:30px 0 6px}p{margin:9px 0}a{color:#16765c}small,.meta{color:#64766c}.brand{font-weight:700;color:#16765c;letter-spacing:.03em;font-size:.85rem;margin-bottom:18px}footer{border-top:1px solid #e5ede8;margin-top:34px;padding-top:18px;color:#64766c;font-size:.9rem}@media(max-width:700px){body{background:#fff}main{margin:0;padding:28px 22px;border:0;border-radius:0}h1{font-size:1.75rem}}</style></head>
-<body><main><div class="brand">GARAGIO</div><h1>Privacy Policy</h1><p class="meta">Last updated: November 15, 2026</p>
-<section><h2>Overview</h2>
-<p>Garagio helps you track vehicle mileage, expenses, and maintenance. No account or login is required.</p></section>
-<section><h2>Data stored on your device</h2>
-<p>Vehicle details, mileage, expenses, and maintenance records you enter are stored locally on your device. Garagio does not provide cloud synchronization or storage of your complete records on our own servers. However, information submitted through app forms is also transmitted to our analytics provider as described below.</p></section>
-<section><h2>Usage analytics</h2>
-<p>We use <a href="https://posthog.com/privacy" rel="noopener noreferrer">PostHog</a> to understand app usage and improve Garagio. When you submit forms, all fields you enter may be sent to PostHog as analytics events. This can include vehicle details, mileage, expense amounts, maintenance information, garage names, notes, and other text you provide. We also collect screen views, app interactions, a randomly generated app installation identifier, and technical information associated with analytics requests (such as IP address and device information).</p>
-<p>The installation identifier allows events from the same installation to be associated. It does not directly contain your name or email address, but analytics data is pseudonymous rather than fully anonymous. No account is required, but form fields may contain personal information you choose to enter. PostHog may process and store this information outside your country of residence.</p></section>
-<section><h2>In-app announcements</h2>
-<p>We use PostHog feature flags to show occasional announcements about Garagio updates, features, and requests for feedback. These announcements are not used to promote unrelated third-party products.</p></section>
-<section><h2>Data deletion</h2>
-<p>You can remove locally stored app records by clearing Garagio’s app data or uninstalling the app. Device backup settings may affect whether copies remain in your backups.</p>
-<p>Deleting local records or uninstalling the app does not automatically delete analytics events already sent to PostHog. To request deletion of those events, contact us using <strong>Profile → Contact Developer</strong> in the app, or email <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a>. Include your installation identifier if available so we can locate the relevant events.</p></section>
-<section><h2>Data use and security</h2>
-<p>We use analytics to understand user needs, analyze vehicle and expense trends, and improve Garagio. We do not sell user data or use it for third-party advertising. Analytics is transmitted over encrypted connections and retained according to our PostHog settings and applicable requirements.</p></section>
-<section><h2>Updates and contact</h2>
-<p>We may update this policy when the app changes. The current version will be available at this page. For questions or privacy requests, contact <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a>.</p></section>
-<footer><p>Developer and contact: <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a></p><p><a href="terms-of-use.html">Terms of Use</a></p></footer></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Garagio — Privacy Policy</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#f7faf8;color:#20332c;font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:760px;margin:54px auto;padding:40px 44px;background:#fff;border:1px solid #e5ede8;border-radius:16px}
+    h1{font-size:2rem;line-height:1.2;margin:0 0 8px;letter-spacing:-.04em}
+    h2{font-size:1.1rem;margin:30px 0 6px}
+    p{margin:9px 0}
+    a{color:#16765c}
+    small,.meta{color:#64766c}
+    .brand{font-weight:700;color:#16765c;letter-spacing:.03em;font-size:.85rem;margin-bottom:18px}
+    footer{border-top:1px solid #e5ede8;margin-top:34px;padding-top:18px;color:#64766c;font-size:.9rem}
+    @media(max-width:700px){body{background:#fff}main{margin:0;padding:28px 22px;border:0;border-radius:0}h1{font-size:1.75rem}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand">GARAGIO</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: November 15, 2026</p>
+
+  <section>
+    <h2>Overview</h2>
+    <p>Garagio helps you track vehicle mileage, expenses, and maintenance. No account or login is required.</p>
+  </section>
+
+  <section>
+    <h2>Data stored on your device</h2>
+    <p>Vehicle details, mileage, expenses, maintenance records, reminders, selected language and measurement settings, onboarding and announcement state, and cached fuel estimates are stored in private app storage on your device. Garagio does not provide cloud synchronization or store your complete records on our own servers.</p>
+    <p>Android backup is disabled for Garagio. You can export a plaintext JSON copy of the app database through <strong>Profile → My data → Export data</strong>. The export does not include analytics data. After export, the file is outside Garagio and is not protected by the app; you are responsible for storing it securely and choosing where it is saved or shared.</p>
+  </section>
+
+  <section>
+    <h2>Analytics and diagnostics</h2>
+    <p>We use <a href="https://posthog.com/privacy" rel="noopener noreferrer">PostHog</a> Cloud in the European Union to understand how Garagio is used, fix problems, and improve the app. We send screen-open events, interaction events, event outcomes, and non-content form metadata. Form metadata may include whether a field was filled, a field name from a validation error, and selected options such as a reminder type, unit, or source. We do not send the text or numeric values you enter in forms, including vehicle names, garage names, notes, mileage, dates, fuel prices, currency values, titles, or expense amounts.</p>
+    <p>Garagio also sends a randomly generated app installation identifier, a session identifier, the event format version, and whether the app is a development or production build. PostHog creates a pseudonymous profile linked to the installation identifier. This identifier does not directly contain your name or email address, and Garagio has no account or login.</p>
+    <p>PostHog automatically receives technical information including app version, package name, and build; device manufacturer, model, name, and type; screen size and density; operating system and version; locale and timezone; network type and carrier; user-agent information; and whether the app is running in an emulator or was sideloaded. These attributes are also attached to the pseudonymous profile.</p>
+    <p>PostHog derives approximate location from the request IP address. This can include country, region, city, approximate latitude and longitude, accuracy radius, and timezone. Garagio does not request GPS or precise location permission. We do not use analytics data for third-party advertising, and we do not sell user data.</p>
+    <p>Garagio automatically sends diagnostics for uncaught Java/Kotlin errors and native crashes, and for some unexpected handled failures. These diagnostics can include an exception type, message, stack trace, issue metadata, and the app and device information described above. Garagio filters custom diagnostic properties and does not intentionally add form values, notes, filenames selected for import or export, or other user-entered content.</p>
+    <p>Automatic application-lifecycle capture, automatic screen-view capture, deep-link capture, push-notification capture, session replay, element-interaction capture, rage-click capture, and dead-click capture are disabled. Screen-open events are recorded by Garagio directly. Session replay is not recorded.</p>
+  </section>
+
+  <section>
+    <h2>Feature flags and announcements</h2>
+    <p>We use PostHog feature flags to configure parts of the app and to show occasional announcements about Garagio updates, features, and requests for feedback. Announcements are not used to promote unrelated third-party products.</p>
+  </section>
+
+  <section>
+    <h2>Service providers and international processing</h2>
+    <p>PostHog processes analytics, diagnostics, and feature-flag data on our behalf. PostHog and its service providers may process data in other countries where permitted by law and with appropriate safeguards. We do not share analytics data with advertisers or data brokers.</p>
+  </section>
+
+  <section>
+    <h2>Data retention</h2>
+    <p>PostHog applies a one-year retention period to analytics and diagnostic events. Expired events are removed during periodic cleanup and may remain briefly after the retention window. Pseudonymous profiles and their properties are stored until you request deletion or we otherwise delete them; deleting a profile also removes its associated events. Aggregated or de-identified information may be retained longer. Session replay data is not collected.</p>
+  </section>
+
+  <section>
+    <h2>Data deletion</h2>
+    <p>You can remove all locally stored Garagio records by clearing the app data or uninstalling the app. This does not automatically delete analytics events or the pseudonymous PostHog profile already associated with your installation identifier.</p>
+    <p>To request deletion of analytics data, use <strong>Profile → My data → Request data deletion</strong> before clearing the app data, or email <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a>. The in-app action opens a message prefilled with your installation identifier so we can locate the relevant events and profile. We will delete that data unless we are required to retain it by law. If you clear app data before sending the request, include the identifier in another way if you still have it.</p>
+  </section>
+
+  <section>
+    <h2>Security</h2>
+    <p>Analytics and feature-flag requests are sent over HTTPS. Remote links used by production configuration must also use HTTPS. No method of transmission or storage is completely secure, but we take reasonable measures to protect the data described in this policy.</p>
+  </section>
+
+  <section>
+    <h2>Updates and contact</h2>
+    <p>We may update this policy when the app or its data practices change. The current version will be available at this page. For questions or privacy requests, contact <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>Developer and contact: <a href="mailto:dadi21cent@gmail.com">dadi21cent@gmail.com</a></p>
+    <p><a href="terms-of-use.html">Terms of Use</a></p>
+  </footer>
+</main>
+</body>
+</html>
